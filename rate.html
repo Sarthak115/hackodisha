@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body h1 {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: rgb(250, 249, 249);
+            padding: 0 16px;
+            }
+       header {
+              background-color: #007BFF;
+              margin: auto -14px;
+              padding: 16px 32px;
+              box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+              }
+       header h1 {
+                  color: #fff;
+                  font-family: "McLaren", cursive;
+                  font-weight: 200;
+                 }
+        page {
+            max-width: 90%;
+            max-height: 100%;
+            margin: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border: 3px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 30px;
+        }
+        label {
+            font-weight: bold;
+         {
+            width: 100%;
+            padding: 90%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 3px solid #ccc;
+            border-radius: 10px;
+        }
+        .rating {
+            display: none;
+        }
+        .rating-label {
+            font-weight: bold;
+        }
+        input[type="number"] {
+            width: 40px;
+        }
+        #submit-button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #submit-button:hover {
+            background-color: #0056b3;
+            font-weight: bold;
+        }
+        footer {
+            position: absolute;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>Rate The Faculty</header>
+        <form id="login-form">
+            <form id="rating-form">
+                <div class="form-group">
+                    <label class="rating-label">Faculty intraction with students:</label>
+                    <input type="number" min="1" max="10" id="education" name="education" required>
+                </div>
+                <div class="form-group">
+                    <label class="rating-label">Teaching quality:</label>
+                    <input type="number" min="1" max="10" id="facilities" name="facilities" required>
+                </div>
+                <div class="form-group">
+                    <label class="rating-label">Providing materials:</label>
+                    <input type="number" min="1" max="10" id="education" name="education" required>
+                </div>
+                <div class="form-group">
+                    <label class="rating-label">Concept clearence:</label>
+                    <input type="number" min="1" max="10" id="education" name="education" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="rating-label">Teaching style:</label>
+                <input type="number" min="1" max="10" id="education" name="education" required>
+            </div>
+            <div class="form-group">
+                <label class="rating-label">Behaviour and nature of faculty towards students:</label>
+                <input type="number" min="1" max="10" id="education" name="education" required>
+            </div>
+                <!-- Add more rating factors here -->
+                <button type="submit" id="submit-button">Submit Rating</button>
+            </form>
+        </div>
+    </div>
+    <footer>Copyright@2k23</footer>
+
+    <script>
+        document.getElementById("login-button").addEventListener("click", function () {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            
+            // Check if username and password match the default values
+        });
+    </script>
+</body>
+</html>
+<link rel="stylesheet" href="./index.css" />
